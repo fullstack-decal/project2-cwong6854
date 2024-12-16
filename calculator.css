@@ -37,10 +37,26 @@
   flex-wrap: wrap-reverse;
   height: 85%;
 }
+
+#equal-button {
+  background-color: #df974c;
+  color: white;
+}
+
+#equal-button:active {
+  background-color: #dfb07e;
+}
+
 #last-buttons {
   background-color: #df974c;
   color: white;
 }
-#last-buttons:hover {
+
+#last-buttons:active {
   background-color: #dfb07e;
 }
+
+#last-buttons:focus {
+  border: 3px solid black;
+}
+
